@@ -1,0 +1,287 @@
+h1{
+    background-color: #000710;
+    color: white;
+    padding: 20px;
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    margin: auto;
+    overflow: auto;
+}
+
+.nav ul {
+    padding-inline: 4rem;
+    display: flex;
+   
+    gap: 2rem;
+  }
+   
+.nav li {
+    list-style-type: none;
+}
+
+.nav-item{
+    display: inline;
+}
+
+.nav{
+    background-color: rgb(86, 86, 255);
+    padding: 20px;
+    padding-bottom: 30px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    position: sticky;
+    top: 0;
+ 
+    display: flex;
+    justify-content: left;
+    gap: 2rem 1rem;
+}
+
+.nav-item a{
+    padding: 0.5rem 1.5rem;
+    border-radius: 999px;
+   
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-item a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #000000;
+    color: white;
+}
+
+img{
+    object-fit: cover;
+    object-position: left;
+    max-height: 400px;
+    max-width: fit-content;
+}
+
+.image{
+    width: 100%;
+    max-height: 900px;
+    object-fit: cover;
+    object-position: center;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: normal;
+    font-family: Georgia;
+    color: black;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+main {
+    padding: 20px;
+    overflow: auto;
+
+    display: flex;
+    gap: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+aside{
+  
+    margin-left: 20px;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+#content {
+    padding: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    flex: 5;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem 2rem;
+  }
+
+
+
+div p{
+    font-size: 30px;
+    color:black;
+}
+
+
+
+
+h3{
+    font-size: 40px;
+    color: black;
+    font-weight: normal;
+}
+
+ 
+
+.List{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    max-width: 800px;
+}
+
+
+a:link{
+    color: rgb(2, 31, 29);
+    font-weight: bold;
+}
+a:visited{
+    color: rgb(0, 255, 200);
+    font-weight: bold;
+}
+a:hover{
+    color: rgb(0, 174, 255);
+    font-weight: bold;
+}
+a:active{
+    color: rgb(208, 255, 0);
+    font-weight: bold;
+}
+
+
+.Tabel{
+    color: black;
+    border: 2px;
+    max-width: fit-content;
+    border-collapse: collapse;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    margin-right: auto;
+    
+}
+
+.Tabel th{
+    border:2px solid black;
+    text-align: left;
+    font-size: 90%;
+    padding: 5px;
+}
+.Tabel td{
+    border:2px solid black;
+    text-align: left;
+    font-size: 90%;
+    padding: 5px;
+}
+
+.Total{
+    text-align: center;
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+
+img.logo{
+    max-height: 100px;
+}
+ 
+header {
+    display: inline;
+  }
+
+footer {
+    padding: 30px;
+    margin: auto;
+    color: white;
+    background-color: rgb(86, 86, 255);
+    font-weight: bold;
+    text-align: center;
+    }
+  
+
+.foot{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+  @media screen and (max-width: 1200px) {
+    main {
+      flex-flow: column nowrap;
+    }
+   
+    main aside {
+      align-self: center;
+    }
+  }
+
+
+
+  @media screen and (max-width: 768px) {
+    nav ul {
+      justify-content: center;
+    }
+   
+    main aside {
+      align-self: stretch;
+    }
+  }
+
+
+.profile header{
+    text-align: center;
+}
+
+.profile h2{
+    font-size: 40px;
+}
+.profile h3{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.profile p{
+    font-size: 30px;
+}
+.Logo{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile img{
+    width: 300px;
+}
+
+.profile table{
+    max-width: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.profile th{
+    text-align: center;
+    font-weight: bold;
+}
+
